@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{box-sizing: border-box}
+		.container{
+			width:70%;
+			margin: 0 auto;
+			border: 1px solid red;
+/*			padding:1px;*/
+			
+		}
+		.container:after{
+			content:'';
+			display:block;
+			clear:both;
+			
+		}
+		p{
+			margin:0px;
+			width:33.33%;
+			height:0;
+			padding-bottom:33%;
+			border-right: 1px solid red;
+			float:left;
+		}
+		#a1{
+			background:#ffaaaa;
+		}
+		
+		#b2{
+			background:lightblue;
+			
+		}
+		
+		#c3{
+			background: lightgreen
+		}
+		
+		.container p:last-of-type{
+			border:none;
+		}
+	</style>
+</head>
+<body>
+<div class= "container">
+	<p id="a1"></p>
+	<p id="b2"></p>
+	<p id="c3"></p>
+	
+</div>
+</body>
+</html>
