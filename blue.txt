@@ -1,1 +1,2 @@
-is my favorite color
+is my favorite color.
+I like blue.
