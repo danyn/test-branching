@@ -1,3 +1,2 @@
-red is extend
-extend is new
+just red on extend.
 
